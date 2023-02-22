@@ -1,0 +1,229 @@
+Android Interview Question
+
+
+service
+-> is a component that run on the backgound to perform a long- running task
+
+1)backgound  service->a backgound service is a service that runs only when app is runging.
+it is terminated when the app is terminated.
+
+2) forgound service->
+a forgound service a service that stays alive even when the app is terminated
+
+
+3)Bound service->
+a Bound service is a service that runs only when the componant it is bound to it still alive
+
+
+------------------------------------------
+
+what is class
+class -> class is a top level block that used for grouping variable and methods for developing logic
+
+object -> is an instane of class
+
+5 type of classes in java 
+
+inteface - > 
+is a fully unimplemented class used for declaring a set of operations of an object.
+it contains only public static final varibles and abstract methods.
+it is created by keyword interface.
+it is always created as a root class in object creation process.
+
+
+abstract class ->
+it is a partialy implemented class used for developing some of the operations of an object which are common for all nex level subclass.
+so it contain the both abstract methods and concreate methods including veriable , block, and constructor.
+
+concrete class:
+it is fully implemented class used for implementing all operation fo an object.
+it contains only concrete methods including valibles , block, constuctor
+
+
+final class:
+a concrete class which is declared as final is called final class.
+it does not allows subclasses.
+so it last class in object inheritance hieratchy
+
+
+
+Singleton class pattern:
+Singleton Pattern says that just"define a class that has only one instance and provides a global point of access to it".
+
+
+
+---------------
+
+OOPS:
+it is a techniue , not technlogy .it is  a methology to develope object in systmatcal mannar.
+
+4 main  piller
+
+encapsulation:->
+the process of creating a class by hiding internal data from the outside world.
+and accessing it from only publicaly exposed methods is known as data encapsulation.
+
+abstraction;->
+* the process of defining a class by Hiding internal details and showing functionality is known as abstraction.
+the process of defining a class by providing necessary details to call object operation by hiding or removing it implementation details .
+
+inheritance->
+the pressess of creating a class to resue exited class memebers using our class name or obejct.
+* obtaining one object propery to another object.
+it use for get one class propery to another class.
+type of inheritance;->
+1)single level
+2)multi level
+3)hierachical 
+4)hybrid
+5)Multiple interface inheritance
+
+
+polymorphisum-;->
+the process of defining a class with multle methods with same methods name with different implementation is called polymorphism.
+
+Overloading -> Method overloading is performed within class.
+
+override - >Method overriding occurs in two classes that have IS-A (inheritance) relationship.
+
+----------
+Components of Android application
+Services 
+Activities 
+Broadcast receivers 
+Content providers 
+
+
+-----------
+core building blocks of android
+    Activity
+    View
+    Intent
+    Service
+    Content Provider
+    Fragment etc.
+
+
+------------
+
+
+Some Major differences between List and ArrayList are as follows:
+
+    One of the major differences is that List is an interface and ArrayList is a class of Java Collection framework.
+    The List extends the collection framework, comparatively ArrayList extends AbstractList class and implements the List interface.
+    The namespace for the List and ArrayList is System.Collection.Generic and System Collection, respectively.
+    List stores elements in a sequence and are identified by the individual index number. Comparatively, ArrayList stores the elements in a dynamic array; it can grow when required.
+
+-----
+
+Android Intent Flags are used to signify the state or type of an Android Intent
+
+-------
+
+What is AAPT?
+AAPT stands for Android Asset Packaging Tool. It is a build tool that gives the ability to developers to view, create, and update ZIP-compatible archives (zip, jar, and apk). It parses, indexes, and compiles the resources into a binary format that is optimized for the platform of Android.
+
+----------
+
+
+What is Android Debug Bridge(ADB)?
+Android Debug Bridge is a command-line tool used to allow and control communication with an emulator instance. It gives the power for developers to execute remote shell commands to run applications on an emulator.
+
+--------
+
+
+What is AIDL?
+AIDL(Android Interface Definition Language) is a tool that handles the interface requirements between a client and a service for interprocess communication(IPC) to communicate at the same level.
+
+-------
+
+
+
+What does ADT stand for?
+ADT stands for Android Development Tools. The Android SDK contains several tools and utilities to help create, test and debug your projects.
+
+
+
+What is the life cycle of Android activity?
+
+    OnCreate(): It is called when activity is created. Using this, the views are created and data is collected from bundles.
+    OnStart(): It is called if the activity is becoming visible to the user. It may be succeeded by onResume() if the activity comes to the foreground, or onStop() if it becomes hidden.
+    OnResume(): It is called when the activity will start an interaction with the user.
+    OnPause(): This is called when the activity is moving to the background but hasn’t been killed yet.
+    OnStop(): This is called when an activity is no longer visible to the user.
+    OnDestroy(): This is called when the activity is finished or destroyed.
+    OnRestart(): This is called after the activity has been stopped, prior to it being started again.
+
+-------------
+
+What is AndroidManifest.xml file
+The AndroidManifest.xml file contains information regarding the application that the Android system must know before the codes can be executed. 
+
+
+---
+Android 11.0 (API 30): Android developers are continuously working to provide more advanced applications as per the user requirements. Important features included are:
+
+    Native screen recording.
+    Auto revokes app permission.
+    Mute notifications during the video.
+    Increase in touch sensitivity.
+    Notification history
+
+
+
+
+
+android version - 
+singleton class
+
+
+
+
+
+santa group
+20-02-23 - 2 pm - technical round
+---
+uber->20-02-23 - sanchari roy
+---
+panjab company 
+next week
+21-02-23
+
+----
+
+
+23-02-23 may be call
+
+26-nitor pune 77700
+-
+final class, final veribles.
+extension class in kotlin.
+flag
+google map
+
+
+--
+--
+--
+--
+
+
+
+Current Company - the appwelt pvt ltd
+Total experience-4.1 years
+Current ctc/per month- 25,000/-
+Expectation ctc/per month- 45.000/-
+Current Location – Nagpur
+Preferred location- - Nagpur , Pune , bangalore
+Primary skill- java , kotlin . android studio
+Secondary skill- java , kotlin . android studio
+Notice period - 15 days
+
+Available at work from day 1st of onboarding Hurix (Y/N)-Yes
+Can join Within 15 Days (Y/N)-Yes
+DOJ in next company - 6 Marcha
+Exp. with MVVM Architecture - 1 years
+Exp. with MVC Architecture - 1 years
+
+
+
